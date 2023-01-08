@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(3, 122, 57);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+hr{
+    color: darkblue;
+    font-family: sans-serif;
+}
+nav h1{
+    font-size: 30px;
+    font-family: 'unbounded';
+    color: darkcyan;
+    height: 110px;
+    width: 110px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+nav ul li{
+    color: rgb(3, 161, 37);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+nav ul li:hover{
+    color: darkblue;
+    text-shadow: 2px 2px 10px darkcyan;
+    transition: all 0.5s;
+}
+nav a{
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+nav a:hover{
+    color: black;
+    background-color: lightblue;
+    transition: all 0.5s;
+}
+.dr h1{
+    width: 30px;
+    height: 30px;
+}
+.dr ul li a{
+    text-decoration: none;
+}
+/* hero  */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.slogan h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'unbounded';
+    max-width: 700px;
+}
+.slogan h1 span{
+    color: brown;
+}
+.slogan p{
+    font-size: 14px;
+    width: 500px;
+}
+.hero img{
+    width: 400px;
+    height: 300px;
+}
+/* Resim */
+
+.infos{
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 900px;
+}
+.info{
+    background-color: black;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+.info p{
+    background-color: black;
+    text-align: center;
+}
+.info img{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+/* ana */
+.desc h1{
+    color: darkcyan;
+    margin-bottom: 20px;
+}
+.desc h1 span{
+    color: rgb(78, 119, 1);
+}   
+.fr{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+.desc p{
+    color: dodgerblue;
+    font-size: 20px;
+}
+@media (max-width:1500px){
+    .desc{
+        margin-right: 50px;
+    }
+}
+.desc{
+    font-size: 25px;
+    font-family: 'unbounded'; 
+}
+/* footer */
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 150px auto;
+}
+footer h1{
+    letter-spacing: 5px;
+    background-color: black;
+    font-size: 40px;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+}
+footer button{
+    background-color: aquamarine;
+    color: dodgerblue;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: none;
+}
+footer button:hover{
+    background-color: dodgerblue;
+    color: aquamarine;
+    transition: all 0.5s;
+}
+footer button a{
+    background-color: aquamarine;
+}
+footer button a:hover{
+    background-color: dodgerblue;
+}
+.container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 90px auto;
+    align-items: center;
+    width: 600px;
+    border: 1px solid;
+}
+.container input{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container button{
+    background-color: lightseagreen;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+.container label{
+    background-color: rgb(0, 0, 0);
+}
+.container input{
+    background-color: white;
+    color: black;
+}
+.container button:hover{
+    background-color: white;
+    color: lightseagreen;
+    transition: all 0.5s;
+}
+.container button a{
+    background-color: lightseagreen;
+}
+
